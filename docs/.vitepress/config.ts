@@ -273,10 +273,21 @@ export default defineConfig({
                             text: '进阶配置',
                             collapsed: false,
                             items: [
-                                { text: '桌面端', link: '/zh/guide/tauri' },
                                 {
-                                    text: '移动端',
-                                    link: '/zh/guide/appconfig',
+                                    text: '桌面窗口配置',
+                                    link: '/zh/guide/tauri',
+                                },
+                                {
+                                    text: '桌面软件设置',
+                                    link: '/zh/guide/pcconfig',
+                                },
+                                {
+                                    text: '移动APP设置',
+                                    link: '/zh/guide/appseting',
+                                },
+                                {
+                                    text: '移动APP权限',
+                                    link: '/zh/guide/apppermission',
                                 },
                             ],
                         },
